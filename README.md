@@ -25,7 +25,7 @@ ECS(Entity Component System)는 **EnTT** 로 구현한 예제 프로젝트입니
 ## 🛠️ 빌드 방법
 ```bash
 # 저장소 클론
-git clone https://github.com/YOUR_ID/raylib-vulkan-example.git
+git clone https://github.com/Rhw0213/entt-test
 cd raylib-vulkan-example
 
 # 빌드
