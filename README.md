@@ -1,19 +1,33 @@
-# Raylib + Vulkan Example
+ï»¿# Raylib + Vulkan Example
 
-À©µµ¿ì ÀÔ·Â/Ã¢ °ü¸®´Â **Raylib** À¸·Î,
-·»´õ¸µÀº **Vulkan** À¸·Î Á÷Á¢ Ã³¸®ÇÏ´Â ¿¹Á¦ ÇÁ·ÎÁ§Æ®ÀÔ´Ï´Ù.
+ìœˆë„ìš° ê´€ë¦¬ì™€ ì…ë ¥ ì²˜ë¦¬ëŠ” **Raylib**,  
+ë Œë”ë§ì€ **Vulkan**,  
+ECS(Entity Component System)ëŠ” **EnTT** ë¡œ êµ¬í˜„í•œ ì˜ˆì œ í”„ë¡œì íŠ¸ì…ë‹ˆë‹¤.  
 
-## ºôµå ¹æ¹ı
+---
 
-### ¿ä±¸»çÇ×
-- CMake 3.14+
-- C++17 Áö¿ø ÄÄÆÄÀÏ·¯
-- Vulkan SDK (https://vulkan.lunarg.com/sdk/home)
-- Git (FetchContent·Î EnTT, Raylib ÀÚµ¿ ´Ù¿î·Îµå)
+## ğŸ“Œ í”„ë¡œì íŠ¸ íŠ¹ì§•
+- **Raylib**: ì°½ ìƒì„±, ì…ë ¥ ì²˜ë¦¬, ì‚¬ìš´ë“œ ê´€ë¦¬  
+- **Vulkan**: ë Œë”ë§ ì§ì ‘ êµ¬í˜„ (OpenGL ë¯¸ì‚¬ìš©)  
+- **EnTT**: ECS êµ¬ì¡° ì ìš©  
+- **CMake FetchContent** ë¡œ EnTT, Raylib ìë™ ë‹¤ìš´ë¡œë“œ  
 
-### ºôµå
+---
+
+## âš™ï¸ ë¹Œë“œ ìš”êµ¬ì‚¬í•­
+- CMake 3.14 ì´ìƒ
+- C++17 ì´ìƒ ì§€ì› ì»´íŒŒì¼ëŸ¬ (MSVC, clang, gcc ë“±)
+- [Vulkan SDK](https://vulkan.lunarg.com/sdk/home) ì„¤ì¹˜ (ì˜ˆ: `C:/VulkanSDK/1.4.321.1`)
+- Git (FetchContent ì‚¬ìš©)
+
+---
+
+## ğŸ› ï¸ ë¹Œë“œ ë°©ë²•
 ```bash
-git clone https://github.com/Rhw0213/entt-test.git
+# ì €ì¥ì†Œ í´ë¡ 
+git clone https://github.com/YOUR_ID/raylib-vulkan-example.git
 cd raylib-vulkan-example
+
+# ë¹Œë“œ
 cmake -B build
 cmake --build build
