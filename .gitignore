@@ -1,0 +1,17 @@
+# Build
+/build/
+/out/
+/CMakeFiles/
+/CMakeCache.txt
+*.sln
+*.vcxproj*
+
+# Binaries
+*.exe
+*.dll
+*.lib
+*.pdb
+
+# VS
+.vs/
+x64/
